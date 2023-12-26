@@ -1,0 +1,3 @@
+com.adrian.delivery.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme
