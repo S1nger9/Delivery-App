@@ -18,6 +18,12 @@
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/adrian/delivery/activities/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/adrian/delivery/activities/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/adrian/delivery/activities/RegisterActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/adrian/delivery/activities/RegisterActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/adrian/delivery/models/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/adrian/delivery/models/User.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/adrian/delivery/routes/UsersRoutes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/adrian/delivery/routes/UsersRoutes.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +42,7 @@
         <option value="resourceFile" />
         <option value="Kotlin Interface" />
         <option value="Class" />
+        <option value="layoutResourceFile" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -54,29 +61,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;android-custom-viewC:/Users/adsin/AppData/Local/Android/Sdk/sources/android-34/android/widget/EditText.java_SELECTED&quot;: &quot;EditText&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/adsin/AndroidStudioProjects/Delivery/app/src/main/res/font&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "android-custom-viewC:/Users/adsin/AppData/Local/Android/Sdk/sources/android-34/android/widget/EditText.java_SELECTED": "EditText",
+    "cidr.known.project.marker": "true",
+    "last_directory_selection": "C:/Users/adsin/AndroidStudioProjects/Delivery/app/src/main/res/drawable",
+    "last_opened_file_path": "C:/Users/adsin/AndroidStudioProjects/Delivery/app/src/main/res/drawable",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\res\drawable" />
       <recent name="C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\res\font" />
     </key>
     <key name="android.template.1328872797">
       <recent name="com.adrian.delivery.activities" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\res\drawable" />
       <recent name="C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\res\font" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="com.adrian.delivery.activities" />
+    </key>
+    <key name="android.template.2015589188">
+      <recent name="com.adrian.delivery.activities.delivery.home" />
+      <recent name="com.adrian.delivery.activities.restaurante.home" />
+      <recent name="com.adrian.delivery.activities" />
+      <recent name="com.adrian.delivery.activities.client.home" />
     </key>
   </component>
   <component name="RunManager">

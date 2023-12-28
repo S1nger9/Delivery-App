@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.adrian.delivery.app-mergeDebugResources-29:/values-gl/values-gl.xml",
+            "outputFile": "com.adrian.delivery.app-mergeDebugResources-30:/values-gl/values-gl.xml",
             "map": [
                 {
                     "source": "C:\\Users\\adsin\\.gradle\\caches\\transforms-3\\7164d9b0ed632e6b8d1db10981773ff5\\transformed\\material-1.11.0\\res\\values-gl\\values-gl.xml",

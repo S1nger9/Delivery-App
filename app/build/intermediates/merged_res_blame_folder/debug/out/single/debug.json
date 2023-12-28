@@ -1,106 +1,134 @@
 [
     {
-        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-32:\\font_catalish_huntera.ttf.flat",
+        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-34:\\font\\catalish_huntera.ttf"
     },
     {
-        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-31:\\font_roboto_regular.ttf.flat",
-        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-33:\\font\\roboto_regular.ttf"
+        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-32:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-34:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-31:\\drawable_rounded_button.xml.flat",
-        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-33:\\drawable\\rounded_button.xml"
+        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-32:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-34:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-32:\\drawable_ic_arrow_right.xml.flat",
+        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-34:\\drawable\\ic_arrow_right.xml"
     },
     {
-        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-31:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-33:\\xml\\data_extraction_rules.xml"
+        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-32:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-34:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.adrian.delivery.app-merged_res-31:/layout_activity_register.xml.flat",
-        "source": "com.adrian.delivery.app-main-33:/layout/activity_register.xml"
+        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-32:\\drawable_edittex_custom.xml.flat",
+        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-34:\\drawable\\edittex_custom.xml"
     },
     {
-        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-32:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-34:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-32:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-34:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-32:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-34:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-31:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-33:\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-32:\\layout_activity_select_roles.xml.flat",
+        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-34:\\layout\\activity_select_roles.xml"
     },
     {
-        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-32:\\font_indigo_daisy.ttf.flat",
+        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-34:\\font\\indigo_daisy.ttf"
     },
     {
-        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-31:\\drawable_ic_arrow_left.xml.flat",
-        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-33:\\drawable\\ic_arrow_left.xml"
+        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-32:\\drawable_user_icon.png.flat",
+        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-34:\\drawable\\user_icon.png"
     },
     {
-        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-32:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-pngs-28:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-33:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-32:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-34:\\layout\\activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-31:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-33:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-32:\\font_roboto_regular.ttf.flat",
+        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-34:\\font\\roboto_regular.ttf"
     },
     {
-        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-32:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-34:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-31:\\drawable_ic_arrow_right.xml.flat",
-        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-33:\\drawable\\ic_arrow_right.xml"
+        "merged": "com.adrian.delivery.app-merged_res-32:/layout_activity_restaurant_home.xml.flat",
+        "source": "com.adrian.delivery.app-main-34:/layout/activity_restaurant_home.xml"
     },
     {
-        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-31:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-pngs-27:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-32:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-34:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-31:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-33:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-32:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-34:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-31:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-33:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-32:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-34:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-31:\\drawable_edittex_custom.xml.flat",
-        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-33:\\drawable\\edittex_custom.xml"
+        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-32:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-34:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-31:\\layout_activity_register.xml.flat",
-        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-33:\\layout\\activity_register.xml"
+        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-32:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-34:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-31:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-33:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.adrian.delivery.app-merged_res-32:/layout_cardview_roles.xml.flat",
+        "source": "com.adrian.delivery.app-main-34:/layout/cardview_roles.xml"
     },
     {
-        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-31:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-33:\\xml\\backup_rules.xml"
+        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-32:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-34:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-31:\\font_indigo_daisy.ttf.flat",
-        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-33:\\font\\indigo_daisy.ttf"
+        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-32:\\drawable_rounded_button.xml.flat",
+        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-34:\\drawable\\rounded_button.xml"
     },
     {
-        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-31:\\font_catalish_huntera.ttf.flat",
-        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-33:\\font\\catalish_huntera.ttf"
+        "merged": "com.adrian.delivery.app-merged_res-32:/layout_activity_delivery_home.xml.flat",
+        "source": "com.adrian.delivery.app-main-34:/layout/activity_delivery_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-32:\\layout_activity_client_home.xml.flat",
+        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-34:\\layout\\activity_client_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-32:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-34:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-32:\\drawable_ic_arrow_left.xml.flat",
+        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-34:\\drawable\\ic_arrow_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-32:\\layout_cardview_roles.xml.flat",
+        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-34:\\layout\\cardview_roles.xml"
+    },
+    {
+        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-32:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-34:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-32:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-34:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.adrian.delivery.app-merged_res-32:/layout_activity_select_roles.xml.flat",
+        "source": "com.adrian.delivery.app-main-34:/layout/activity_select_roles.xml"
     }
 ]

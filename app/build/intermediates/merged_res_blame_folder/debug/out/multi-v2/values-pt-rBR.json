@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.adrian.delivery.app-mergeDebugResources-29:/values-pt-rBR/values-pt-rBR.xml",
+            "outputFile": "com.adrian.delivery.app-mergeDebugResources-30:/values-pt-rBR/values-pt-rBR.xml",
             "map": [
                 {
                     "source": "C:\\Users\\adsin\\.gradle\\caches\\transforms-3\\43edc55df3b5c22b93aea8041b6b233a\\transformed\\core-1.9.0\\res\\values-pt-rBR\\values-pt-rBR.xml",

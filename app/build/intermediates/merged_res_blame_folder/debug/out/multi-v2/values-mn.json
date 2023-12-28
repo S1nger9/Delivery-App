@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.adrian.delivery.app-mergeDebugResources-29:/values-mn/values-mn.xml",
+            "outputFile": "com.adrian.delivery.app-mergeDebugResources-30:/values-mn/values-mn.xml",
             "map": [
                 {
                     "source": "C:\\Users\\adsin\\.gradle\\caches\\transforms-3\\ea81018398a5eb9877f0ba4a04db551f\\transformed\\appcompat-1.6.1\\res\\values-mn\\values-mn.xml",

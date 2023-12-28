@@ -3077,6 +3077,7 @@ int drawable rounded_button 0x7f0700dd
 int drawable test_level_drawable 0x7f0700de
 int drawable tooltip_frame_dark 0x7f0700df
 int drawable tooltip_frame_light 0x7f0700e0
+int drawable user_icon 0x7f0700e3
 int font catalish_huntera 0x7f080000
 int font indigo_daisy 0x7f080001
 int font roboto_regular 0x7f080002
@@ -3179,6 +3180,7 @@ int id bounceBoth 0x7f09005f
 int id bounceEnd 0x7f090060
 int id bounceStart 0x7f090061
 int id btn_login 0x7f0901f0
+int id btn_logout 0x7f0901f8
 int id btn_register 0x7f0901f3
 int id buttonPanel 0x7f090062
 int id cache_measures 0x7f090063
@@ -3288,6 +3290,7 @@ int id frost 0x7f0900c4
 int id fullscreen_header 0x7f0900c5
 int id ghost_view 0x7f0900c6
 int id ghost_view_holder 0x7f0900c7
+int id glide_custom_view_target_tag 0x7f0901f9
 int id gone 0x7f0900c8
 int id graph 0x7f0900c9
 int id graph_wrap 0x7f0900ca
@@ -3308,6 +3311,7 @@ int id ignoreRequest 0x7f0900d8
 int id image 0x7f0900d9
 int id imageview_go_to_login 0x7f0901ef
 int id imageview_go_to_register 0x7f0901ee
+int id imageview_rol 0x7f0901fa
 int id immediateStop 0x7f0900da
 int id included 0x7f0900db
 int id indeterminate 0x7f0900dc
@@ -3446,6 +3450,7 @@ int id progress_horizontal 0x7f090160
 int id radio 0x7f090161
 int id ratio 0x7f090162
 int id rectangles 0x7f090163
+int id recyclerview_roles 0x7f0901fb
 int id report_drawn 0x7f090164
 int id reverseSawtooth 0x7f090165
 int id right 0x7f090166
@@ -3545,6 +3550,7 @@ int id textinput_helper_text 0x7f0901c3
 int id textinput_placeholder 0x7f0901c4
 int id textinput_prefix_text 0x7f0901c5
 int id textinput_suffix_text 0x7f0901c6
+int id textview_rol 0x7f0901fc
 int id time 0x7f0901c7
 int id title 0x7f0901c8
 int id titleDividerNoCustom 0x7f0901c9
@@ -3698,8 +3704,13 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0c0018
 int layout abc_search_view 0x7f0c0019
 int layout abc_select_dialog_material 0x7f0c001a
 int layout abc_tooltip 0x7f0c001b
+int layout activity_client_home 0x7f0c006b
+int layout activity_delivery_home 0x7f0c006e
 int layout activity_main 0x7f0c001c
 int layout activity_register 0x7f0c006a
+int layout activity_restaurant_home 0x7f0c006f
+int layout activity_select_roles 0x7f0c006c
+int layout cardview_roles 0x7f0c006d
 int layout custom_dialog 0x7f0c001d
 int layout design_bottom_navigation_item 0x7f0c001e
 int layout design_bottom_sheet_dialog 0x7f0c001f

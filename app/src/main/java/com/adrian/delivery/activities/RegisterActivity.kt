@@ -11,6 +11,15 @@ import android.widget.EditText
 import android.widget.ImageView
 import android.widget.Toast
 import com.adrian.delivery.R
+import com.adrian.delivery.activities.client.home.ClientHomeActivity
+import com.adrian.delivery.models.ResponseHttp
+import com.adrian.delivery.models.User
+import com.adrian.delivery.providers.UsersProvider
+import com.adrian.delivery.utils.SharedPref
+import com.google.gson.Gson
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
 
 class RegisterActivity : AppCompatActivity() {
 
@@ -25,6 +34,7 @@ class RegisterActivity : AppCompatActivity() {
     var editTextConfirmPassword: EditText? = null
     var buttonRegister: Button? = null
 
+    var usersProvider = UsersProvider()
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -54,15 +64,49 @@ class RegisterActivity : AppCompatActivity() {
         val confirmPassword = editTextConfirmPassword?.text.toString()
 
         if(isValidForm(name=name, lastname=lastname, email=email, phone=phone, password=password, confirmPassword=confirmPassword)){
-            Toast.makeText(this, "El formulario es valido", Toast.LENGTH_SHORT).show()
+           val user = User(
+               name=name,
+               lastname=lastname,
+               email=email,
+               phone=phone,
+               password=password
+           )
+            usersProvider.register(user)?.enqueue(object: Callback<ResponseHttp>{
+                override fun onResponse(call: Call<ResponseHttp>, response: Response<ResponseHttp>) {
+
+                    if(response.body()?.success ==true){
+                        saveUserInSession(response.body()?.data.toString())
+                        goToClientHome()
+                    }
+
+                    Toast.makeText(this@RegisterActivity,response.body()?.message,Toast.LENGTH_LONG).show()
+
+                    Log.d(TAG,"Response: ${response}")
+                    Log.d(TAG,"Body: ${response.body()}")
+
+                }
+
+                override fun onFailure(p0: Call<ResponseHttp>, t: Throwable) {
+                    Log.d(TAG, "Se produjo un error ${t.message}")
+                    Toast.makeText(this@RegisterActivity,"Se produjo un error ${t.message}",Toast.LENGTH_LONG).show()
+                }
+
+            })
         }
 
-        Log.d(TAG, "El nombre es: $name")
-        Log.d(TAG, "El apellido es: $lastname")
-        Log.d(TAG, "El email es: $email")
-        Log.d(TAG, "El phone es: $phone")
-        Log.d(TAG, "El password es: $password")
-        Log.d(TAG, "El confirmPassword es: $confirmPassword")
+
+    }
+
+    private fun goToClientHome(){
+        val i = Intent(this, ClientHomeActivity::class.java)
+        startActivity(i)
+    }
+    private fun saveUserInSession(data: String){
+
+        val sharedPref = SharedPref(this)
+        val gson = Gson()
+        val user = gson.fromJson(data, User::class.java)
+        sharedPref.save("user",user)
     }
 
     fun String.isEmailValid():Boolean{
