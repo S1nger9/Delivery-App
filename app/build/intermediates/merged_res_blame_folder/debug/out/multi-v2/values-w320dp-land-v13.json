@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.adrian.delivery.app-mergeDebugResources-30:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+            "outputFile": "com.adrian.delivery.app-mergeDebugResources-43:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\adsin\\.gradle\\caches\\transforms-3\\7164d9b0ed632e6b8d1db10981773ff5\\transformed\\material-1.11.0\\res\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
+                    "source": "C:\\Users\\adsin\\.gradle\\caches\\transforms-3\\83a9cccf260287d62e8b0aaf662a3aea\\transformed\\material-1.11.0\\res\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

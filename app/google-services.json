@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1047321516369",
+    "project_id": "kotlin-delivery-61981",
+    "storage_bucket": "kotlin-delivery-61981.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047321516369:android:e1ba0e1a61a526dc63db70",
+        "android_client_info": {
+          "package_name": "com.adrian.delivery"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZqf3272cNyfX2bVRa7ggiFmgHwBeIMC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

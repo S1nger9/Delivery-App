@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.adrian.delivery" >
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
 
     <application
         android:allowBackup="true"
@@ -15,31 +24,100 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Delivery"
         android:usesCleartextTraffic="true"
-        tools:targetApi="31">
+        tools:targetApi="31" >
+
+        <activity
+            android:name=".activities.client.payments.paypal.paymentmethod.ClientPaymentMethodActivity"
+            android:exported="false"
+            android:parentActivityName=".activities.client.address.list.ClientAddressListActivity" />
+        <activity
+            android:name=".activities.client.orders.map.ClientOrdersMapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.delivery.orders.map.DeliveryOrdersMapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.delivery.orders.detail.DeliveryOrdersDetailActivity"
+            android:exported="true"
+            android:parentActivityName=".activities.delivery.home.DeliveryHomeActivity" />
+        <activity
+            android:name=".activities.orders.detail.RestaurantOrdersDetailActivity"
+            android:exported="true"
+            android:parentActivityName=".activities.restaurant.home.RestaurantHomeActivity" />
+        <activity
+            android:name=".activities.client.orders.detail.ClientOrdersDetailActivity"
+            android:exported="true"
+            android:parentActivityName=".activities.client.home.ClientHomeActivity" />
+        <activity
+            android:name=".activities.client.payments.form.ClientPaymentFormActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.client.address.map.ClientAddressMapActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.client.address.create.ClientAddressCreateActivity"
+            android:exported="true"
+            android:parentActivityName=".activities.client.address.list.ClientAddressListActivity" />
+        <activity
+            android:name=".activities.client.address.list.ClientAddressListActivity"
+            android:exported="true"
+            android:parentActivityName=".fragments.client.shopping_bag.ClientShoppingBagActivity" />
+        <activity
+            android:name=".fragments.client.shopping_bag.ClientShoppingBagActivity"
+            android:exported="true"
+            android:parentActivityName=".activities.client.home.ClientHomeActivity" />
+        <activity
+            android:name=".activities.client.products.detail.ClientProductsDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.client.products.list.ClientProductsListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.client.update.ClientUpdateActivity"
+            android:exported="true"
+            android:parentActivityName=".activities.client.home.ClientHomeActivity" />
+        <activity
+            android:name=".activities.SaveImageActivity"
+            android:exported="true" />
         <activity
             android:name=".activities.delivery.home.DeliveryHomeActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
-            android:name=".activities.restaurante.home.RestaurantHomeActivity"
-            android:exported="false" />
+            android:name=".activities.restaurant.home.RestaurantHomeActivity"
+            android:exported="true" />
         <activity
             android:name=".activities.SelectRolesActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".activities.client.home.ClientHomeActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".activities.RegisterActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".activities.MainActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDZCFUlIugHGaFDogr5xUUIn32tnhtPd0o" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+
+        <service
+            android:name=".service.MyFirebaseMessagingClient"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>

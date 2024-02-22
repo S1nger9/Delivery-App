@@ -5,165 +5,562 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="21"
+8        android:minSdkVersion="23"
 9        android:targetSdkVersion="33" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:5:5-67
-11-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:5:22-64
+11-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:6:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:6:5-79
-12-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:6:22-76
-13
-14    <permission
-14-->[androidx.core:core:1.9.0] C:\Users\adsin\.gradle\caches\transforms-3\43edc55df3b5c22b93aea8041b6b233a\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
-15        android:name="com.adrian.delivery.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-15-->[androidx.core:core:1.9.0] C:\Users\adsin\.gradle\caches\transforms-3\43edc55df3b5c22b93aea8041b6b233a\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
-16        android:protectionLevel="signature" />
-16-->[androidx.core:core:1.9.0] C:\Users\adsin\.gradle\caches\transforms-3\43edc55df3b5c22b93aea8041b6b233a\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
-17
-18    <uses-permission android:name="com.adrian.delivery.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-18-->[androidx.core:core:1.9.0] C:\Users\adsin\.gradle\caches\transforms-3\43edc55df3b5c22b93aea8041b6b233a\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-18-->[androidx.core:core:1.9.0] C:\Users\adsin\.gradle\caches\transforms-3\43edc55df3b5c22b93aea8041b6b233a\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
-19
-20    <application
-20-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:8:5-43:19
-21        android:allowBackup="true"
-21-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:9:9-35
-22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-22-->[androidx.core:core:1.9.0] C:\Users\adsin\.gradle\caches\transforms-3\43edc55df3b5c22b93aea8041b6b233a\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
-23        android:dataExtractionRules="@xml/data_extraction_rules"
-23-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:10:9-65
-24        android:debuggable="true"
-25        android:extractNativeLibs="true"
-26        android:fullBackupContent="@xml/backup_rules"
-26-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:11:9-54
-27        android:icon="@mipmap/ic_launcher"
-27-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:12:9-43
-28        android:label="@string/app_name"
-28-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:13:9-41
-29        android:roundIcon="@mipmap/ic_launcher_round"
-29-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:14:9-54
-30        android:supportsRtl="true"
-30-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:15:9-35
-31        android:testOnly="true"
-32        android:theme="@style/Theme.Delivery"
-32-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:16:9-46
-33        android:usesCleartextTraffic="true" >
-33-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:17:9-44
-34        <activity
-34-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:19:9-21:40
-35            android:name="com.adrian.delivery.activities.delivery.home.DeliveryHomeActivity"
-35-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:20:13-74
-36            android:exported="false" />
-36-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:21:13-37
-37        <activity
-37-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:22:9-24:40
-38            android:name="com.adrian.delivery.activities.restaurante.home.RestaurantHomeActivity"
-38-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:23:13-79
-39            android:exported="false" />
-39-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:24:13-37
-40        <activity
-40-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:25:9-27:40
-41            android:name="com.adrian.delivery.activities.SelectRolesActivity"
-41-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:26:13-59
-42            android:exported="false" />
-42-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:27:13-37
-43        <activity
-43-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:28:9-30:40
-44            android:name="com.adrian.delivery.activities.client.home.ClientHomeActivity"
-44-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:29:13-70
-45            android:exported="false" />
-45-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:30:13-37
-46        <activity
-46-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:31:9-33:40
-47            android:name="com.adrian.delivery.activities.RegisterActivity"
-47-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:32:13-56
-48            android:exported="false" />
-48-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:33:13-37
-49        <activity
-49-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:34:9-42:20
-50            android:name="com.adrian.delivery.activities.MainActivity"
-50-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:35:13-52
-51            android:exported="true" >
-51-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:36:13-36
-52            <intent-filter>
-52-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:37:13-41:29
-53                <action android:name="android.intent.action.MAIN" />
-53-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:38:17-69
-53-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:38:25-66
-54
-55                <category android:name="android.intent.category.LAUNCHER" />
-55-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:40:17-77
-55-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:40:27-74
-56            </intent-filter>
-57        </activity>
-58
-59        <provider
-59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adsin\.gradle\caches\transforms-3\d39a1a71cb92445ad924395f05b3b45a\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-60            android:name="androidx.startup.InitializationProvider"
-60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adsin\.gradle\caches\transforms-3\d39a1a71cb92445ad924395f05b3b45a\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-61            android:authorities="com.adrian.delivery.androidx-startup"
-61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adsin\.gradle\caches\transforms-3\d39a1a71cb92445ad924395f05b3b45a\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-62            android:exported="false" >
-62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adsin\.gradle\caches\transforms-3\d39a1a71cb92445ad924395f05b3b45a\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-63            <meta-data
-63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adsin\.gradle\caches\transforms-3\d39a1a71cb92445ad924395f05b3b45a\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adsin\.gradle\caches\transforms-3\d39a1a71cb92445ad924395f05b3b45a\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-65                android:value="androidx.startup" />
-65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adsin\.gradle\caches\transforms-3\d39a1a71cb92445ad924395f05b3b45a\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-66            <meta-data
-66-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\adsin\.gradle\caches\transforms-3\52093c2e9b2d6b99e3306c6b4afb83ad\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
-67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-67-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\adsin\.gradle\caches\transforms-3\52093c2e9b2d6b99e3306c6b4afb83ad\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
-68                android:value="androidx.startup" />
-68-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\adsin\.gradle\caches\transforms-3\52093c2e9b2d6b99e3306c6b4afb83ad\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
-69            <meta-data
-69-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c70309ac4172ba14e74f435e091b28c9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-70                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-70-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c70309ac4172ba14e74f435e091b28c9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-71                android:value="androidx.startup" />
-71-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c70309ac4172ba14e74f435e091b28c9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-72        </provider>
-73
-74        <receiver
-74-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c70309ac4172ba14e74f435e091b28c9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-75            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-75-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c70309ac4172ba14e74f435e091b28c9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-76            android:directBootAware="false"
-76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c70309ac4172ba14e74f435e091b28c9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-77            android:enabled="true"
-77-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c70309ac4172ba14e74f435e091b28c9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-78            android:exported="true"
-78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c70309ac4172ba14e74f435e091b28c9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-79            android:permission="android.permission.DUMP" >
-79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c70309ac4172ba14e74f435e091b28c9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-80            <intent-filter>
-80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c70309ac4172ba14e74f435e091b28c9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-81                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c70309ac4172ba14e74f435e091b28c9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c70309ac4172ba14e74f435e091b28c9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-82            </intent-filter>
-83            <intent-filter>
-83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c70309ac4172ba14e74f435e091b28c9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-84                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c70309ac4172ba14e74f435e091b28c9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c70309ac4172ba14e74f435e091b28c9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-85            </intent-filter>
-86            <intent-filter>
-86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c70309ac4172ba14e74f435e091b28c9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-87                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c70309ac4172ba14e74f435e091b28c9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c70309ac4172ba14e74f435e091b28c9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-88            </intent-filter>
-89            <intent-filter>
-89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c70309ac4172ba14e74f435e091b28c9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-90                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c70309ac4172ba14e74f435e091b28c9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c70309ac4172ba14e74f435e091b28c9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-91            </intent-filter>
-92        </receiver>
-93    </application>
-94
-95</manifest>
+12-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:7:5-79
+12-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:8:5-65
+13-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:8:22-62
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:9:5-80
+14-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:9:22-77
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:10:5-79
+15-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:10:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:11:5-81
+16-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:11:22-78
+17    <uses-permission android:name="android.permission.CALL_PHONE" />
+17-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:12:5-69
+17-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:12:22-66
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:13:5-15:40
+18-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:14:9-65
+19    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+19-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\adsin\.gradle\caches\transforms-3\6d4cb5334235c7a57281422f8d5a0442\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:23:5-77
+19-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\adsin\.gradle\caches\transforms-3\6d4cb5334235c7a57281422f8d5a0442\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:23:22-74
+20    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+20-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\adsin\.gradle\caches\transforms-3\6d4cb5334235c7a57281422f8d5a0442\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:24:5-68
+20-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\adsin\.gradle\caches\transforms-3\6d4cb5334235c7a57281422f8d5a0442\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:24:22-65
+21    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+21-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\adsin\.gradle\caches\transforms-3\6d4cb5334235c7a57281422f8d5a0442\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:26:5-82
+21-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\adsin\.gradle\caches\transforms-3\6d4cb5334235c7a57281422f8d5a0442\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:26:22-79
+22
+23    <queries>
+23-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\adsin\.gradle\caches\transforms-3\7ce93eeb89d31a07d11432e31b3382af\transformed\imagepicker-2.1\AndroidManifest.xml:9:5-19:15
+24
+25        <!-- Query Camera Packages -->
+26        <intent>
+26-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\adsin\.gradle\caches\transforms-3\7ce93eeb89d31a07d11432e31b3382af\transformed\imagepicker-2.1\AndroidManifest.xml:12:9-14:18
+27            <action android:name="android.media.action.IMAGE_CAPTURE" />
+27-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\adsin\.gradle\caches\transforms-3\7ce93eeb89d31a07d11432e31b3382af\transformed\imagepicker-2.1\AndroidManifest.xml:13:13-73
+27-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\adsin\.gradle\caches\transforms-3\7ce93eeb89d31a07d11432e31b3382af\transformed\imagepicker-2.1\AndroidManifest.xml:13:21-70
+28        </intent>
+29        <!-- Query Open Document -->
+30        <intent>
+30-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\adsin\.gradle\caches\transforms-3\7ce93eeb89d31a07d11432e31b3382af\transformed\imagepicker-2.1\AndroidManifest.xml:16:9-18:18
+31            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
+31-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\adsin\.gradle\caches\transforms-3\7ce93eeb89d31a07d11432e31b3382af\transformed\imagepicker-2.1\AndroidManifest.xml:17:13-79
+31-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\adsin\.gradle\caches\transforms-3\7ce93eeb89d31a07d11432e31b3382af\transformed\imagepicker-2.1\AndroidManifest.xml:17:21-76
+32        </intent>
+33        <!-- Needs to be explicitly declared on Android R+ -->
+34        <package android:name="com.google.android.apps.maps" />
+34-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\adsin\.gradle\caches\transforms-3\84de289fcc94493db0a10f8379d7f4f1\transformed\play-services-maps-17.0.1\AndroidManifest.xml:33:9-64
+34-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\adsin\.gradle\caches\transforms-3\84de289fcc94493db0a10f8379d7f4f1\transformed\play-services-maps-17.0.1\AndroidManifest.xml:33:18-61
+35    </queries>
+36
+37    <uses-feature
+37-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\adsin\.gradle\caches\transforms-3\84de289fcc94493db0a10f8379d7f4f1\transformed\play-services-maps-17.0.1\AndroidManifest.xml:26:5-28:35
+38        android:glEsVersion="0x00020000"
+38-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\adsin\.gradle\caches\transforms-3\84de289fcc94493db0a10f8379d7f4f1\transformed\play-services-maps-17.0.1\AndroidManifest.xml:27:9-41
+39        android:required="true" />
+39-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\adsin\.gradle\caches\transforms-3\84de289fcc94493db0a10f8379d7f4f1\transformed\play-services-maps-17.0.1\AndroidManifest.xml:28:9-32
+40
+41    <permission
+41-->[androidx.core:core:1.9.0] C:\Users\adsin\.gradle\caches\transforms-3\b4252b0604fc0d00178189ffd1ccee96\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+42        android:name="com.adrian.delivery.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+42-->[androidx.core:core:1.9.0] C:\Users\adsin\.gradle\caches\transforms-3\b4252b0604fc0d00178189ffd1ccee96\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+43        android:protectionLevel="signature" />
+43-->[androidx.core:core:1.9.0] C:\Users\adsin\.gradle\caches\transforms-3\b4252b0604fc0d00178189ffd1ccee96\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+44
+45    <uses-permission android:name="com.adrian.delivery.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+45-->[androidx.core:core:1.9.0] C:\Users\adsin\.gradle\caches\transforms-3\b4252b0604fc0d00178189ffd1ccee96\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+45-->[androidx.core:core:1.9.0] C:\Users\adsin\.gradle\caches\transforms-3\b4252b0604fc0d00178189ffd1ccee96\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+46
+47    <application
+47-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:17:5-121:19
+48        android:allowBackup="true"
+48-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:18:9-35
+49        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+49-->[androidx.core:core:1.9.0] C:\Users\adsin\.gradle\caches\transforms-3\b4252b0604fc0d00178189ffd1ccee96\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+50        android:dataExtractionRules="@xml/data_extraction_rules"
+50-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:19:9-65
+51        android:debuggable="true"
+52        android:extractNativeLibs="false"
+53        android:fullBackupContent="@xml/backup_rules"
+53-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:20:9-54
+54        android:icon="@mipmap/ic_launcher"
+54-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:21:9-43
+55        android:label="@string/app_name"
+55-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:22:9-41
+56        android:roundIcon="@mipmap/ic_launcher_round"
+56-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:23:9-54
+57        android:supportsRtl="true"
+57-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:24:9-35
+58        android:testOnly="true"
+59        android:theme="@style/Theme.Delivery"
+59-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:25:9-46
+60        android:usesCleartextTraffic="true" >
+60-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:26:9-44
+61        <activity
+61-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:29:9-32:102
+62            android:name="com.adrian.delivery.activities.client.payments.paypal.paymentmethod.ClientPaymentMethodActivity"
+62-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:30:13-104
+63            android:exported="false"
+63-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:31:13-37
+64            android:parentActivityName="com.adrian.delivery.activities.client.address.list.ClientAddressListActivity" />
+64-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:32:13-99
+65        <activity
+65-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:33:9-35:40
+66            android:name="com.adrian.delivery.activities.client.orders.map.ClientOrdersMapActivity"
+66-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:34:13-81
+67            android:exported="false" />
+67-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:35:13-37
+68        <activity
+68-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:36:9-38:40
+69            android:name="com.adrian.delivery.activities.delivery.orders.map.DeliveryOrdersMapActivity"
+69-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:37:13-85
+70            android:exported="false" />
+70-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:38:13-37
+71        <activity
+71-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:39:9-42:91
+72            android:name="com.adrian.delivery.activities.delivery.orders.detail.DeliveryOrdersDetailActivity"
+72-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:40:13-91
+73            android:exported="true"
+73-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:41:13-36
+74            android:parentActivityName="com.adrian.delivery.activities.delivery.home.DeliveryHomeActivity" />
+74-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:42:13-88
+75        <activity
+75-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:43:9-46:95
+76            android:name="com.adrian.delivery.activities.orders.detail.RestaurantOrdersDetailActivity"
+76-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:44:13-84
+77            android:exported="true"
+77-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:45:13-36
+78            android:parentActivityName="com.adrian.delivery.activities.restaurant.home.RestaurantHomeActivity" />
+78-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:46:13-92
+79        <activity
+79-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:47:9-50:87
+80            android:name="com.adrian.delivery.activities.client.orders.detail.ClientOrdersDetailActivity"
+80-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:48:13-87
+81            android:exported="true"
+81-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:49:13-36
+82            android:parentActivityName="com.adrian.delivery.activities.client.home.ClientHomeActivity" />
+82-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:50:13-84
+83        <activity
+83-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:51:9-53:39
+84            android:name="com.adrian.delivery.activities.client.payments.form.ClientPaymentFormActivity"
+84-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:52:13-86
+85            android:exported="true" />
+85-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:53:13-36
+86        <activity
+86-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:54:9-56:39
+87            android:name="com.adrian.delivery.activities.client.address.map.ClientAddressMapActivity"
+87-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:55:13-83
+88            android:exported="true" />
+88-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:56:13-36
+89        <activity
+89-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:57:9-60:102
+90            android:name="com.adrian.delivery.activities.client.address.create.ClientAddressCreateActivity"
+90-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:58:13-89
+91            android:exported="true"
+91-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:59:13-36
+92            android:parentActivityName="com.adrian.delivery.activities.client.address.list.ClientAddressListActivity" />
+92-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:60:13-99
+93        <activity
+93-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:61:9-64:101
+94            android:name="com.adrian.delivery.activities.client.address.list.ClientAddressListActivity"
+94-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:62:13-85
+95            android:exported="true"
+95-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:63:13-36
+96            android:parentActivityName="com.adrian.delivery.fragments.client.shopping_bag.ClientShoppingBagActivity" />
+96-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:64:13-98
+97        <activity
+97-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:65:9-68:87
+98            android:name="com.adrian.delivery.fragments.client.shopping_bag.ClientShoppingBagActivity"
+98-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:66:13-84
+99            android:exported="true"
+99-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:67:13-36
+100            android:parentActivityName="com.adrian.delivery.activities.client.home.ClientHomeActivity" />
+100-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:68:13-84
+101        <activity
+101-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:69:9-71:39
+102            android:name="com.adrian.delivery.activities.client.products.detail.ClientProductsDetailActivity"
+102-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:70:13-91
+103            android:exported="true" />
+103-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:71:13-36
+104        <activity
+104-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:72:9-74:39
+105            android:name="com.adrian.delivery.activities.client.products.list.ClientProductsListActivity"
+105-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:73:13-87
+106            android:exported="true" />
+106-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:74:13-36
+107        <activity
+107-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:75:9-78:87
+108            android:name="com.adrian.delivery.activities.client.update.ClientUpdateActivity"
+108-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:76:13-74
+109            android:exported="true"
+109-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:77:13-36
+110            android:parentActivityName="com.adrian.delivery.activities.client.home.ClientHomeActivity" />
+110-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:78:13-84
+111        <activity
+111-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:79:9-81:39
+112            android:name="com.adrian.delivery.activities.SaveImageActivity"
+112-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:80:13-57
+113            android:exported="true" />
+113-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:81:13-36
+114        <activity
+114-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:82:9-84:39
+115            android:name="com.adrian.delivery.activities.delivery.home.DeliveryHomeActivity"
+115-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:83:13-74
+116            android:exported="true" />
+116-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:84:13-36
+117        <activity
+117-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:85:9-87:39
+118            android:name="com.adrian.delivery.activities.restaurant.home.RestaurantHomeActivity"
+118-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:86:13-78
+119            android:exported="true" />
+119-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:87:13-36
+120        <activity
+120-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:88:9-90:39
+121            android:name="com.adrian.delivery.activities.SelectRolesActivity"
+121-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:89:13-59
+122            android:exported="true" />
+122-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:90:13-36
+123        <activity
+123-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:91:9-93:39
+124            android:name="com.adrian.delivery.activities.client.home.ClientHomeActivity"
+124-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:92:13-70
+125            android:exported="true" />
+125-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:93:13-36
+126        <activity
+126-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:94:9-96:39
+127            android:name="com.adrian.delivery.activities.RegisterActivity"
+127-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:95:13-56
+128            android:exported="true" />
+128-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:96:13-36
+129        <activity
+129-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:97:9-105:20
+130            android:name="com.adrian.delivery.activities.MainActivity"
+130-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:98:13-52
+131            android:exported="true" >
+131-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:99:13-36
+132            <intent-filter>
+132-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:100:13-104:29
+133                <action android:name="android.intent.action.MAIN" />
+133-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:101:17-69
+133-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:101:25-66
+134
+135                <category android:name="android.intent.category.LAUNCHER" />
+135-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:103:17-77
+135-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:103:27-74
+136            </intent-filter>
+137        </activity>
+138
+139        <meta-data
+139-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:107:9-109:71
+140            android:name="com.google.android.geo.API_KEY"
+140-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:108:13-58
+141            android:value="AIzaSyDZCFUlIugHGaFDogr5xUUIn32tnhtPd0o" />
+141-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:109:13-68
+142        <meta-data
+142-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:110:9-112:71
+143            android:name="com.google.firebase.messaging.default_notification_channel_id"
+143-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:111:13-89
+144            android:value="@string/default_notification_channel_id" />
+144-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:112:13-68
+145
+146        <service
+146-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:114:9-120:19
+147            android:name="com.adrian.delivery.service.MyFirebaseMessagingClient"
+147-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:115:13-62
+148            android:exported="false" >
+148-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:116:13-37
+149            <intent-filter>
+149-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:117:13-119:29
+150                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+150-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:118:17-78
+150-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:118:25-75
+151            </intent-filter>
+152        </service>
+153        <service
+153-->[com.google.firebase:firebase-messaging-ktx:23.4.1] C:\Users\adsin\.gradle\caches\transforms-3\b887fa9a105c1c4d5035116303a51d2b\transformed\firebase-messaging-ktx-23.4.1\AndroidManifest.xml:23:9-29:19
+154            android:name="com.google.firebase.components.ComponentDiscoveryService"
+154-->[com.google.firebase:firebase-messaging-ktx:23.4.1] C:\Users\adsin\.gradle\caches\transforms-3\b887fa9a105c1c4d5035116303a51d2b\transformed\firebase-messaging-ktx-23.4.1\AndroidManifest.xml:24:13-84
+155            android:directBootAware="true"
+155-->[com.google.firebase:firebase-common:20.4.2] C:\Users\adsin\.gradle\caches\transforms-3\a633f0446d9443a497487e542bc29b72\transformed\firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+156            android:exported="false" >
+156-->[com.google.firebase:firebase-messaging-ktx:23.4.1] C:\Users\adsin\.gradle\caches\transforms-3\b887fa9a105c1c4d5035116303a51d2b\transformed\firebase-messaging-ktx-23.4.1\AndroidManifest.xml:25:13-37
+157            <meta-data
+157-->[com.google.firebase:firebase-messaging-ktx:23.4.1] C:\Users\adsin\.gradle\caches\transforms-3\b887fa9a105c1c4d5035116303a51d2b\transformed\firebase-messaging-ktx-23.4.1\AndroidManifest.xml:26:13-28:85
+158                android:name="com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingLegacyRegistrar"
+158-->[com.google.firebase:firebase-messaging-ktx:23.4.1] C:\Users\adsin\.gradle\caches\transforms-3\b887fa9a105c1c4d5035116303a51d2b\transformed\firebase-messaging-ktx-23.4.1\AndroidManifest.xml:27:17-129
+159                android:value="com.google.firebase.components.ComponentRegistrar" />
+159-->[com.google.firebase:firebase-messaging-ktx:23.4.1] C:\Users\adsin\.gradle\caches\transforms-3\b887fa9a105c1c4d5035116303a51d2b\transformed\firebase-messaging-ktx-23.4.1\AndroidManifest.xml:28:17-82
+160            <meta-data
+160-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\adsin\.gradle\caches\transforms-3\6d4cb5334235c7a57281422f8d5a0442\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:57:13-59:85
+161                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+161-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\adsin\.gradle\caches\transforms-3\6d4cb5334235c7a57281422f8d5a0442\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:58:17-122
+162                android:value="com.google.firebase.components.ComponentRegistrar" />
+162-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\adsin\.gradle\caches\transforms-3\6d4cb5334235c7a57281422f8d5a0442\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:59:17-82
+163            <meta-data
+163-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\adsin\.gradle\caches\transforms-3\6d4cb5334235c7a57281422f8d5a0442\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:60:13-62:85
+164                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+164-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\adsin\.gradle\caches\transforms-3\6d4cb5334235c7a57281422f8d5a0442\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:61:17-119
+165                android:value="com.google.firebase.components.ComponentRegistrar" />
+165-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\adsin\.gradle\caches\transforms-3\6d4cb5334235c7a57281422f8d5a0442\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:62:17-82
+166            <meta-data
+166-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\adsin\.gradle\caches\transforms-3\c9964723f3efb57c4bd6d8b001441c19\transformed\firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
+167                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+167-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\adsin\.gradle\caches\transforms-3\c9964723f3efb57c4bd6d8b001441c19\transformed\firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
+168                android:value="com.google.firebase.components.ComponentRegistrar" />
+168-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\adsin\.gradle\caches\transforms-3\c9964723f3efb57c4bd6d8b001441c19\transformed\firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
+169            <meta-data
+169-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\adsin\.gradle\caches\transforms-3\c9964723f3efb57c4bd6d8b001441c19\transformed\firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
+170                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+170-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\adsin\.gradle\caches\transforms-3\c9964723f3efb57c4bd6d8b001441c19\transformed\firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
+171                android:value="com.google.firebase.components.ComponentRegistrar" />
+171-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\adsin\.gradle\caches\transforms-3\c9964723f3efb57c4bd6d8b001441c19\transformed\firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
+172            <meta-data
+172-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\adsin\.gradle\caches\transforms-3\73b4d54a16fd9b4990190dc6e2623ff0\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+173                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+173-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\adsin\.gradle\caches\transforms-3\73b4d54a16fd9b4990190dc6e2623ff0\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+174                android:value="com.google.firebase.components.ComponentRegistrar" />
+174-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\adsin\.gradle\caches\transforms-3\73b4d54a16fd9b4990190dc6e2623ff0\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+175            <meta-data
+175-->[com.google.firebase:firebase-common:20.4.2] C:\Users\adsin\.gradle\caches\transforms-3\a633f0446d9443a497487e542bc29b72\transformed\firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+176                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+176-->[com.google.firebase:firebase-common:20.4.2] C:\Users\adsin\.gradle\caches\transforms-3\a633f0446d9443a497487e542bc29b72\transformed\firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+177                android:value="com.google.firebase.components.ComponentRegistrar" />
+177-->[com.google.firebase:firebase-common:20.4.2] C:\Users\adsin\.gradle\caches\transforms-3\a633f0446d9443a497487e542bc29b72\transformed\firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+178            <meta-data
+178-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\adsin\.gradle\caches\transforms-3\1ea36f47df9af3524d5d58e28fd84995\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+179                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+179-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\adsin\.gradle\caches\transforms-3\1ea36f47df9af3524d5d58e28fd84995\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+180                android:value="com.google.firebase.components.ComponentRegistrar" />
+180-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\adsin\.gradle\caches\transforms-3\1ea36f47df9af3524d5d58e28fd84995\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+181        </service>
+182
+183        <receiver
+183-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\adsin\.gradle\caches\transforms-3\6d4cb5334235c7a57281422f8d5a0442\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:29:9-40:20
+184            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+184-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\adsin\.gradle\caches\transforms-3\6d4cb5334235c7a57281422f8d5a0442\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:30:13-78
+185            android:exported="true"
+185-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\adsin\.gradle\caches\transforms-3\6d4cb5334235c7a57281422f8d5a0442\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:31:13-36
+186            android:permission="com.google.android.c2dm.permission.SEND" >
+186-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\adsin\.gradle\caches\transforms-3\6d4cb5334235c7a57281422f8d5a0442\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:32:13-73
+187            <intent-filter>
+187-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\adsin\.gradle\caches\transforms-3\6d4cb5334235c7a57281422f8d5a0442\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:33:13-35:29
+188                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+188-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\adsin\.gradle\caches\transforms-3\6d4cb5334235c7a57281422f8d5a0442\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:34:17-81
+188-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\adsin\.gradle\caches\transforms-3\6d4cb5334235c7a57281422f8d5a0442\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:34:25-78
+189            </intent-filter>
+190
+191            <meta-data
+191-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\adsin\.gradle\caches\transforms-3\6d4cb5334235c7a57281422f8d5a0442\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:37:13-39:40
+192                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+192-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\adsin\.gradle\caches\transforms-3\6d4cb5334235c7a57281422f8d5a0442\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:38:17-92
+193                android:value="true" />
+193-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\adsin\.gradle\caches\transforms-3\6d4cb5334235c7a57281422f8d5a0442\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:39:17-37
+194        </receiver>
+195        <!--
+196             FirebaseMessagingService performs security checks at runtime,
+197             but set to not exported to explicitly avoid allowing another app to call it.
+198        -->
+199        <service
+199-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\adsin\.gradle\caches\transforms-3\6d4cb5334235c7a57281422f8d5a0442\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:46:9-53:19
+200            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+200-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\adsin\.gradle\caches\transforms-3\6d4cb5334235c7a57281422f8d5a0442\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:47:13-82
+201            android:directBootAware="true"
+201-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\adsin\.gradle\caches\transforms-3\6d4cb5334235c7a57281422f8d5a0442\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:48:13-43
+202            android:exported="false" >
+202-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\adsin\.gradle\caches\transforms-3\6d4cb5334235c7a57281422f8d5a0442\transformed\firebase-messaging-23.4.1\AndroidManifest.xml:49:13-37
+203            <intent-filter android:priority="-500" >
+203-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:117:13-119:29
+204                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+204-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:118:17-78
+204-->C:\Users\adsin\AndroidStudioProjects\Delivery\app\src\main\AndroidManifest.xml:118:25-75
+205            </intent-filter>
+206        </service>
+207
+208        <provider
+208-->[com.google.firebase:firebase-common:20.4.2] C:\Users\adsin\.gradle\caches\transforms-3\a633f0446d9443a497487e542bc29b72\transformed\firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+209            android:name="com.google.firebase.provider.FirebaseInitProvider"
+209-->[com.google.firebase:firebase-common:20.4.2] C:\Users\adsin\.gradle\caches\transforms-3\a633f0446d9443a497487e542bc29b72\transformed\firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+210            android:authorities="com.adrian.delivery.firebaseinitprovider"
+210-->[com.google.firebase:firebase-common:20.4.2] C:\Users\adsin\.gradle\caches\transforms-3\a633f0446d9443a497487e542bc29b72\transformed\firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+211            android:directBootAware="true"
+211-->[com.google.firebase:firebase-common:20.4.2] C:\Users\adsin\.gradle\caches\transforms-3\a633f0446d9443a497487e542bc29b72\transformed\firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+212            android:exported="false"
+212-->[com.google.firebase:firebase-common:20.4.2] C:\Users\adsin\.gradle\caches\transforms-3\a633f0446d9443a497487e542bc29b72\transformed\firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+213            android:initOrder="100" />
+213-->[com.google.firebase:firebase-common:20.4.2] C:\Users\adsin\.gradle\caches\transforms-3\a633f0446d9443a497487e542bc29b72\transformed\firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+214
+215        <activity
+215-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\adsin\.gradle\caches\transforms-3\7ce93eeb89d31a07d11432e31b3382af\transformed\imagepicker-2.1\AndroidManifest.xml:22:9-25:68
+216            android:name="com.github.dhaval2404.imagepicker.ImagePickerActivity"
+216-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\adsin\.gradle\caches\transforms-3\7ce93eeb89d31a07d11432e31b3382af\transformed\imagepicker-2.1\AndroidManifest.xml:23:13-81
+217            android:screenOrientation="unspecified"
+217-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\adsin\.gradle\caches\transforms-3\7ce93eeb89d31a07d11432e31b3382af\transformed\imagepicker-2.1\AndroidManifest.xml:24:13-52
+218            android:theme="@style/Theme.Transparent.ImagePicker" />
+218-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\adsin\.gradle\caches\transforms-3\7ce93eeb89d31a07d11432e31b3382af\transformed\imagepicker-2.1\AndroidManifest.xml:25:13-65
+219        <activity
+219-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\adsin\.gradle\caches\transforms-3\7ce93eeb89d31a07d11432e31b3382af\transformed\imagepicker-2.1\AndroidManifest.xml:26:9-29:72
+220            android:name="com.yalantis.ucrop.UCropActivity"
+220-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\adsin\.gradle\caches\transforms-3\7ce93eeb89d31a07d11432e31b3382af\transformed\imagepicker-2.1\AndroidManifest.xml:27:13-60
+221            android:screenOrientation="portrait"
+221-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\adsin\.gradle\caches\transforms-3\7ce93eeb89d31a07d11432e31b3382af\transformed\imagepicker-2.1\AndroidManifest.xml:28:13-49
+222            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+222-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\adsin\.gradle\caches\transforms-3\7ce93eeb89d31a07d11432e31b3382af\transformed\imagepicker-2.1\AndroidManifest.xml:29:13-69
+223
+224        <provider
+224-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\adsin\.gradle\caches\transforms-3\7ce93eeb89d31a07d11432e31b3382af\transformed\imagepicker-2.1\AndroidManifest.xml:31:9-39:20
+225            android:name="com.github.dhaval2404.imagepicker.ImagePickerFileProvider"
+225-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\adsin\.gradle\caches\transforms-3\7ce93eeb89d31a07d11432e31b3382af\transformed\imagepicker-2.1\AndroidManifest.xml:32:13-85
+226            android:authorities="com.adrian.delivery.imagepicker.provider"
+226-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\adsin\.gradle\caches\transforms-3\7ce93eeb89d31a07d11432e31b3382af\transformed\imagepicker-2.1\AndroidManifest.xml:33:13-72
+227            android:exported="false"
+227-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\adsin\.gradle\caches\transforms-3\7ce93eeb89d31a07d11432e31b3382af\transformed\imagepicker-2.1\AndroidManifest.xml:34:13-37
+228            android:grantUriPermissions="true" >
+228-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\adsin\.gradle\caches\transforms-3\7ce93eeb89d31a07d11432e31b3382af\transformed\imagepicker-2.1\AndroidManifest.xml:35:13-47
+229            <meta-data
+229-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\adsin\.gradle\caches\transforms-3\7ce93eeb89d31a07d11432e31b3382af\transformed\imagepicker-2.1\AndroidManifest.xml:36:13-38:71
+230                android:name="android.support.FILE_PROVIDER_PATHS"
+230-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\adsin\.gradle\caches\transforms-3\7ce93eeb89d31a07d11432e31b3382af\transformed\imagepicker-2.1\AndroidManifest.xml:37:17-67
+231                android:resource="@xml/image_picker_provider_paths" />
+231-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\adsin\.gradle\caches\transforms-3\7ce93eeb89d31a07d11432e31b3382af\transformed\imagepicker-2.1\AndroidManifest.xml:38:17-68
+232        </provider> <!-- Needs to be explicitly declared on P+ -->
+233        <uses-library
+233-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\adsin\.gradle\caches\transforms-3\84de289fcc94493db0a10f8379d7f4f1\transformed\play-services-maps-17.0.1\AndroidManifest.xml:39:9-41:40
+234            android:name="org.apache.http.legacy"
+234-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\adsin\.gradle\caches\transforms-3\84de289fcc94493db0a10f8379d7f4f1\transformed\play-services-maps-17.0.1\AndroidManifest.xml:40:13-50
+235            android:required="false" />
+235-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\adsin\.gradle\caches\transforms-3\84de289fcc94493db0a10f8379d7f4f1\transformed\play-services-maps-17.0.1\AndroidManifest.xml:41:13-37
+236
+237        <activity
+237-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\adsin\.gradle\caches\transforms-3\a8efed964344d4b0b53a8689b0a7f833\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+238            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+238-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\adsin\.gradle\caches\transforms-3\a8efed964344d4b0b53a8689b0a7f833\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+239            android:exported="false"
+239-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\adsin\.gradle\caches\transforms-3\a8efed964344d4b0b53a8689b0a7f833\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+240            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+240-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\adsin\.gradle\caches\transforms-3\a8efed964344d4b0b53a8689b0a7f833\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+241
+242        <meta-data
+242-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\adsin\.gradle\caches\transforms-3\01b4becd12a1f71d4b9a06084f8dbda3\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+243            android:name="com.google.android.gms.version"
+243-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\adsin\.gradle\caches\transforms-3\01b4becd12a1f71d4b9a06084f8dbda3\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+244            android:value="@integer/google_play_services_version" />
+244-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\adsin\.gradle\caches\transforms-3\01b4becd12a1f71d4b9a06084f8dbda3\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+245
+246        <provider
+246-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adsin\.gradle\caches\transforms-3\76d4d267adb3f5329787459b342ee459\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+247            android:name="androidx.startup.InitializationProvider"
+247-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adsin\.gradle\caches\transforms-3\76d4d267adb3f5329787459b342ee459\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+248            android:authorities="com.adrian.delivery.androidx-startup"
+248-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adsin\.gradle\caches\transforms-3\76d4d267adb3f5329787459b342ee459\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+249            android:exported="false" >
+249-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adsin\.gradle\caches\transforms-3\76d4d267adb3f5329787459b342ee459\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+250            <meta-data
+250-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adsin\.gradle\caches\transforms-3\76d4d267adb3f5329787459b342ee459\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+251                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+251-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adsin\.gradle\caches\transforms-3\76d4d267adb3f5329787459b342ee459\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+252                android:value="androidx.startup" />
+252-->[androidx.emoji2:emoji2:1.2.0] C:\Users\adsin\.gradle\caches\transforms-3\76d4d267adb3f5329787459b342ee459\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+253            <meta-data
+253-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\adsin\.gradle\caches\transforms-3\b03a5bbb017f23d61b153d53ceaa3158\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+254                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+254-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\adsin\.gradle\caches\transforms-3\b03a5bbb017f23d61b153d53ceaa3158\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+255                android:value="androidx.startup" />
+255-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\adsin\.gradle\caches\transforms-3\b03a5bbb017f23d61b153d53ceaa3158\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+256            <meta-data
+256-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c64aa761129a2c0cc13080485ddfc998\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+257                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+257-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c64aa761129a2c0cc13080485ddfc998\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+258                android:value="androidx.startup" />
+258-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c64aa761129a2c0cc13080485ddfc998\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+259        </provider>
+260
+261        <service
+261-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\adsin\.gradle\caches\transforms-3\4ee10eb5d100551d89350dc8bb29747e\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+262            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+262-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\adsin\.gradle\caches\transforms-3\4ee10eb5d100551d89350dc8bb29747e\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+263            android:exported="false" >
+263-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\adsin\.gradle\caches\transforms-3\4ee10eb5d100551d89350dc8bb29747e\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+264            <meta-data
+264-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\adsin\.gradle\caches\transforms-3\4ee10eb5d100551d89350dc8bb29747e\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+265                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+265-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\adsin\.gradle\caches\transforms-3\4ee10eb5d100551d89350dc8bb29747e\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+266                android:value="cct" />
+266-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\adsin\.gradle\caches\transforms-3\4ee10eb5d100551d89350dc8bb29747e\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+267        </service>
+268        <service
+268-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\adsin\.gradle\caches\transforms-3\aea4639623f7221ecd0e62ce83b961c4\transformed\transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+269            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+269-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\adsin\.gradle\caches\transforms-3\aea4639623f7221ecd0e62ce83b961c4\transformed\transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+270            android:exported="false"
+270-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\adsin\.gradle\caches\transforms-3\aea4639623f7221ecd0e62ce83b961c4\transformed\transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+271            android:permission="android.permission.BIND_JOB_SERVICE" >
+271-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\adsin\.gradle\caches\transforms-3\aea4639623f7221ecd0e62ce83b961c4\transformed\transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+272        </service>
+273
+274        <receiver
+274-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\adsin\.gradle\caches\transforms-3\aea4639623f7221ecd0e62ce83b961c4\transformed\transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+275            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+275-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\adsin\.gradle\caches\transforms-3\aea4639623f7221ecd0e62ce83b961c4\transformed\transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+276            android:exported="false" />
+276-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\adsin\.gradle\caches\transforms-3\aea4639623f7221ecd0e62ce83b961c4\transformed\transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+277        <receiver
+277-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c64aa761129a2c0cc13080485ddfc998\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+278            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+278-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c64aa761129a2c0cc13080485ddfc998\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+279            android:directBootAware="false"
+279-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c64aa761129a2c0cc13080485ddfc998\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+280            android:enabled="true"
+280-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c64aa761129a2c0cc13080485ddfc998\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+281            android:exported="true"
+281-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c64aa761129a2c0cc13080485ddfc998\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+282            android:permission="android.permission.DUMP" >
+282-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c64aa761129a2c0cc13080485ddfc998\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+283            <intent-filter>
+283-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c64aa761129a2c0cc13080485ddfc998\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+284                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+284-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c64aa761129a2c0cc13080485ddfc998\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+284-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c64aa761129a2c0cc13080485ddfc998\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+285            </intent-filter>
+286            <intent-filter>
+286-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c64aa761129a2c0cc13080485ddfc998\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+287                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+287-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c64aa761129a2c0cc13080485ddfc998\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+287-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c64aa761129a2c0cc13080485ddfc998\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+288            </intent-filter>
+289            <intent-filter>
+289-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c64aa761129a2c0cc13080485ddfc998\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+290                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+290-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c64aa761129a2c0cc13080485ddfc998\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+290-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c64aa761129a2c0cc13080485ddfc998\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+291            </intent-filter>
+292            <intent-filter>
+292-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c64aa761129a2c0cc13080485ddfc998\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+293                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+293-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c64aa761129a2c0cc13080485ddfc998\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+293-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\adsin\.gradle\caches\transforms-3\c64aa761129a2c0cc13080485ddfc998\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+294            </intent-filter>
+295        </receiver>
+296
+297        <provider
+297-->[com.squareup.picasso:picasso:2.71828] C:\Users\adsin\.gradle\caches\transforms-3\eea6814bae983243aa9868a4d8eee007\transformed\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+298            android:name="com.squareup.picasso.PicassoProvider"
+298-->[com.squareup.picasso:picasso:2.71828] C:\Users\adsin\.gradle\caches\transforms-3\eea6814bae983243aa9868a4d8eee007\transformed\picasso-2.71828\AndroidManifest.xml:9:13-64
+299            android:authorities="com.adrian.delivery.com.squareup.picasso"
+299-->[com.squareup.picasso:picasso:2.71828] C:\Users\adsin\.gradle\caches\transforms-3\eea6814bae983243aa9868a4d8eee007\transformed\picasso-2.71828\AndroidManifest.xml:10:13-72
+300            android:exported="false" />
+300-->[com.squareup.picasso:picasso:2.71828] C:\Users\adsin\.gradle\caches\transforms-3\eea6814bae983243aa9868a4d8eee007\transformed\picasso-2.71828\AndroidManifest.xml:11:13-37
+301    </application>
+302
+303</manifest>

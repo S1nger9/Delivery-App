@@ -1,7 +1,6 @@
 package com.adrian.delivery.activities
 
 import android.annotation.SuppressLint
-import android.content.ContentValues.TAG
 import android.content.Intent
 import android.content.Intent.FLAG_ACTIVITY_CLEAR_TASK
 import android.content.Intent.FLAG_ACTIVITY_NEW_TASK
@@ -12,11 +11,12 @@ import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageView
+import android.widget.TextView
 import android.widget.Toast
 import com.adrian.delivery.R
 import com.adrian.delivery.activities.client.home.ClientHomeActivity
 import com.adrian.delivery.activities.delivery.home.DeliveryHomeActivity
-import com.adrian.delivery.activities.restaurante.home.RestaurantHomeActivity
+import com.adrian.delivery.activities.restaurant.home.RestaurantHomeActivity
 import com.adrian.delivery.models.ResponseHttp
 import com.adrian.delivery.models.User
 import com.adrian.delivery.providers.UsersProvider
@@ -28,7 +28,7 @@ import retrofit2.Response
 
 class MainActivity : AppCompatActivity() {
 
-    var imageViewGoToRegister: ImageView? = null
+    var textViewGoToRegister: TextView? = null
     var editTextEmail: EditText? = null
     var editTextPassword: EditText? = null
     var buttonLogin: Button? = null
@@ -39,12 +39,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        imageViewGoToRegister = findViewById(R.id.imageview_go_to_register)
+        textViewGoToRegister = findViewById(R.id.imageview_go_to_register)
         editTextEmail = findViewById(R.id.edittext_email)
         editTextPassword = findViewById(R.id.edittext_password)
         buttonLogin = findViewById(R.id.btn_login)
 
-        imageViewGoToRegister?.setOnClickListener { goToRegister() }
+        textViewGoToRegister?.setOnClickListener { goToRegister() }
         buttonLogin?.setOnClickListener{login()}
 
         getUserFromSession()

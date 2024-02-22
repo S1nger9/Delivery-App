@@ -18,7 +18,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/arrow_back_ios/baseline_arrow_back_ios_24.xml" />
+                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/local_phone/baseline_local_phone_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -28,8 +28,8 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="color" value="06cf67" />
-                            <entry key="outputName" value="ic_arrow_left" />
+                            <entry key="color" value="d2d2d2" />
+                            <entry key="outputName" value="ic_phone_gray" />
                             <entry key="sourceFile" value="C:\Users\adsin\AndroidStudioProjects\Delivery" />
                           </map>
                         </option>

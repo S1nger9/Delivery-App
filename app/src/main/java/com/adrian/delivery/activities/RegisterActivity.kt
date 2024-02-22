@@ -35,7 +35,6 @@ class RegisterActivity : AppCompatActivity() {
     var buttonRegister: Button? = null
 
     var usersProvider = UsersProvider()
-    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
@@ -98,7 +97,8 @@ class RegisterActivity : AppCompatActivity() {
     }
 
     private fun goToClientHome(){
-        val i = Intent(this, ClientHomeActivity::class.java)
+        val i = Intent(this, SaveImageActivity::class.java)
+        i.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK //Eliminar el historial de pantallas
         startActivity(i)
     }
     private fun saveUserInSession(data: String){

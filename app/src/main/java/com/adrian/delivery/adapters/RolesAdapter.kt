@@ -8,11 +8,10 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import androidx.recyclerview.widget.RecyclerView.RecycledViewPool
 import com.adrian.delivery.R
 import com.adrian.delivery.activities.client.home.ClientHomeActivity
 import com.adrian.delivery.activities.delivery.home.DeliveryHomeActivity
-import com.adrian.delivery.activities.restaurante.home.RestaurantHomeActivity
+import com.adrian.delivery.activities.restaurant.home.RestaurantHomeActivity
 import com.adrian.delivery.models.Rol
 import com.adrian.delivery.utils.SharedPref
 import com.bumptech.glide.Glide

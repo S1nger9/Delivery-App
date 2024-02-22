@@ -18,7 +18,7 @@
             android:textSize="50dp"
             android:layout_marginTop="60dp"
             android:layout_marginLeft="25dp"
-            android:fontFamily="@font/indigo_daisy"/>
+            android:fontFamily="@font/hotpizza"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -116,6 +116,7 @@
             android:text="Registrarse"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
+            android:textColor="@color/black"
             android:background="@drawable/rounded_button"/>
 
         <ImageView
