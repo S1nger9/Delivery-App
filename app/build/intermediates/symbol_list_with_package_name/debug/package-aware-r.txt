@@ -3143,6 +3143,7 @@ drawable default_placeholder
 drawable default_selected_dot
 drawable default_unselected_dot
 drawable delivery
+drawable deliverylogo
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -3564,6 +3565,7 @@ id imageview_go_to_register
 id imageview_image1
 id imageview_image2
 id imageview_image3
+id imageview_login_image
 id imageview_logout
 id imageview_paypal
 id imageview_phone

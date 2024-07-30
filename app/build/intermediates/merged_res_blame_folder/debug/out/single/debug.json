@@ -36,6 +36,10 @@
         "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-47:\\layout\\activity_client_products_detail.xml"
     },
     {
+        "merged": "com.adrian.delivery.app-merged_res-45:/layout_activity_delivery_orders_detail.xml.flat",
+        "source": "com.adrian.delivery.app-main-47:/layout/activity_delivery_orders_detail.xml"
+    },
+    {
         "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-45:\\layout_cardview_roles.xml.flat",
         "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-47:\\layout\\cardview_roles.xml"
     },
@@ -108,12 +112,12 @@
         "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-47:\\layout\\fragment_restaurant_orders_status.xml"
     },
     {
-        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-45:\\drawable_ic_phone_gray.xml.flat",
-        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-47:\\drawable\\ic_phone_gray.xml"
-    },
-    {
         "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-45:\\drawable_my_location.png.flat",
         "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-47:\\drawable\\my_location.png"
+    },
+    {
+        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-45:\\drawable_ic_phone_gray.xml.flat",
+        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-47:\\drawable\\ic_phone_gray.xml"
     },
     {
         "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-45:\\layout_fragment_client_profile.xml.flat",
@@ -136,12 +140,12 @@
         "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-47:\\layout\\activity_client_address_map.xml"
     },
     {
-        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-45:\\drawable_ic_person_pin.xml.flat",
-        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-47:\\drawable\\ic_person_pin.xml"
-    },
-    {
         "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-45:\\layout_fragment_client_orders_status.xml.flat",
         "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-47:\\layout\\fragment_client_orders_status.xml"
+    },
+    {
+        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-45:\\drawable_ic_person_pin.xml.flat",
+        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-47:\\drawable\\ic_person_pin.xml"
     },
     {
         "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-45:\\drawable_ic_power.xml.flat",
@@ -156,16 +160,16 @@
         "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-47:\\layout\\activity_client_payment_method.xml"
     },
     {
-        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-45:\\layout_cardview_orders.xml.flat",
-        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-47:\\layout\\cardview_orders.xml"
+        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-45:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-47:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-45:\\layout_activity_client_home.xml.flat",
         "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-47:\\layout\\activity_client_home.xml"
     },
     {
-        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-45:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-47:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-45:\\layout_cardview_orders.xml.flat",
+        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-47:\\layout\\cardview_orders.xml"
     },
     {
         "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-45:\\layout_activity_client_orders_detail.xml.flat",
@@ -182,6 +186,10 @@
     {
         "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-45:\\layout_activity_client_payment_form.xml.flat",
         "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-47:\\layout\\activity_client_payment_form.xml"
+    },
+    {
+        "merged": "com.adrian.delivery.app-merged_res-45:/layout_activity_restaurant_orders_detail.xml.flat",
+        "source": "com.adrian.delivery.app-main-47:/layout/activity_restaurant_orders_detail.xml"
     },
     {
         "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-45:\\menu_menu_shopping_bag.xml.flat",
@@ -216,8 +224,16 @@
         "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-47:\\layout\\activity_save_image.xml"
     },
     {
+        "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-45:\\drawable_deliverylogo.png.flat",
+        "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-47:\\drawable\\deliverylogo.png"
+    },
+    {
         "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-45:\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-47:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.adrian.delivery.app-merged_res-45:/layout_cardview_shopping_bag.xml.flat",
+        "source": "com.adrian.delivery.app-main-47:/layout/cardview_shopping_bag.xml"
     },
     {
         "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-45:\\drawable_card_radius.xml.flat",
@@ -354,10 +370,6 @@
     {
         "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-45:\\drawable_home.png.flat",
         "source": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-main-47:\\drawable\\home.png"
-    },
-    {
-        "merged": "com.adrian.delivery.app-merged_res-45:/layout_activity_client_payment_method.xml.flat",
-        "source": "com.adrian.delivery.app-main-47:/layout/activity_client_payment_method.xml"
     },
     {
         "merged": "C:\\Users\\adsin\\.gradle\\daemon\\8.0\\com.adrian.delivery.app-merged_res-45:\\font_roboto_regular.ttf.flat",

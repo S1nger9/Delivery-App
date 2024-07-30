@@ -40,7 +40,7 @@ class ShoppingBagAdapter(val context: Activity, val products: ArrayList<Product>
         holder.textViewCounter.text = "${product.quantity}"
 
         if(product.quantity != null){
-            holder.textViewPrice.text = "${product.price * product.quantity!!}$"
+            holder.textViewPrice.text = "${product.price * product.quantity!!}€"
         }
         Glide.with(context).load(product.image1).into(holder.imageViewProduct)
 

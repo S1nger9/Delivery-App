@@ -60,7 +60,7 @@ class ClientShoppingBagActivity : AppCompatActivity() {
     }
 
     fun setTotal(total:Double){
-        textViewTotal?.text = "${total}$"
+        textViewTotal?.text = "${total}€"
     }
 
     private fun getProductsFromSharedPref(){

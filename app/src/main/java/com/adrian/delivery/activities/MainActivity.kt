@@ -112,7 +112,7 @@ class MainActivity : AppCompatActivity() {
         val user = gson.fromJson(data, User::class.java)
         sharedPref.save("user",user)
 
-        if(user.roles?.size!! > 1){
+        if(user.roles?.size!! >= 1){// antes >
             goToSelectRol()
         }
         else{

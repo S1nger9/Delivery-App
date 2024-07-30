@@ -3142,6 +3142,7 @@ int drawable default_placeholder 0x7f07009b
 int drawable default_selected_dot 0x7f07009c
 int drawable default_unselected_dot 0x7f07009d
 int drawable delivery 0x7f07009e
+int drawable deliverylogo 0x7f070130
 int drawable design_fab_background 0x7f07009f
 int drawable design_ic_visibility 0x7f0700a0
 int drawable design_ic_visibility_off 0x7f0700a1
@@ -3563,6 +3564,7 @@ int id imageview_go_to_register 0x7f09010b
 int id imageview_image1 0x7f09010c
 int id imageview_image2 0x7f09010d
 int id imageview_image3 0x7f09010e
+int id imageview_login_image 0x7f090279
 int id imageview_logout 0x7f09010f
 int id imageview_paypal 0x7f090110
 int id imageview_phone 0x7f090111

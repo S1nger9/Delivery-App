@@ -33,7 +33,7 @@ class ProductsAdapter(val context: Activity, val products: ArrayList<Product>): 
         val product = products[position] // CADA UNA DE LAS CATEGORIAS
 
         holder.textViewName.text = product.name
-        holder.textViewPrice.text = "${product.price}$"
+        holder.textViewPrice.text = "${product.price}€"
         Glide.with(context).load(product.image1).into(holder.imageViewProduct)
 
        holder.itemView.setOnClickListener{ goToDetail(product)}
